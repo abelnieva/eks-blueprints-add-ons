@@ -231,7 +231,7 @@ promtheusNodeExporter:
   
 # Kubernetes Dashboard Values
 kubernetesDashboard:
-  enable: false
+  enable: true
   serviceAccountName:
 
 # promtail Values
