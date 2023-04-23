@@ -264,7 +264,7 @@ kubePrometheusStack:
 
 # Kyverno Values
 kyverno:
-  enable: false
+  enable: true
 
 policies:
   enable: false
