@@ -6,3 +6,5 @@ policies:
 
 reporter:
   enable: true
+  ui:
+    enabled: true
