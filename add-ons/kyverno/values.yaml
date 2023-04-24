@@ -8,3 +8,7 @@ reporter:
   enable: true
   ui:
     enabled: true
+    plugins:
+      kyverno: true
+  kyvernoPlugin:
+    enabled: true
