@@ -245,6 +245,8 @@ kubecost:
 # kubescape Values
 kubescape:
   enable: true
+  clusterName: ""
+  account: ""
 
 # SMB CSI Driver Values
 smbCsiDriver:
