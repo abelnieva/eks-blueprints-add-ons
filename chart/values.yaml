@@ -242,6 +242,10 @@ promtail:
 kubecost:
   enable: false
 
+# kubescape Values
+kubescape:
+  enable: false
+
 # SMB CSI Driver Values
 smbCsiDriver:
   enable: false
