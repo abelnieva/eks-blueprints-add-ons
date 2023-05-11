@@ -1,6 +1,6 @@
 apiVersion: v2
-name: kubecost
-description: A Helm chart for kubecost
+name: kubescape
+description: A Helm chart for kubescape
 
 # Application charts are a collection of templates that can be packaged into versioned archives
 # to be deployed.
@@ -16,5 +16,6 @@ appVersion: "1.0"
 
 dependencies:
   - name: kubescape-cloud-operator
+    alias: kubescape
     version: 1.10.15
     repository: https://kubescape.github.io/helm-charts/
