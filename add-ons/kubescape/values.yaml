@@ -1,2 +1,3 @@
-clusterName: ""
-account: ""
+kubescape-cloud-operator:
+  clusterName: ""
+  account: ""

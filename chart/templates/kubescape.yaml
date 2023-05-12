@@ -16,6 +16,8 @@ spec:
       values: |
         kubescape:
         {{- toYaml .Values.kubescape | nindent 10 }}
+        kubescapecloudoperator:
+        {{- toYaml .Values.kubescapecloudoperator | nindent 10 }}
   destination:
     server: {{ .Values.destinationServer | default "https://kubernetes.default.svc" }}
     namespace: kubescape

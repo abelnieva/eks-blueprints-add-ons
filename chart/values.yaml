@@ -99,7 +99,7 @@ strimziKafkaOperator:
 
 # External DNS Values
 externalDns:
-  enable: false
+  enable: true
   createNamespace: true
   serviceAccountName:
   zoneIdFilter:
@@ -245,6 +245,7 @@ kubecost:
 # kubescape Values
 kubescape:
   enable: true
+kubescapecloudoperator:
   clusterName: ""
   account: ""
 
