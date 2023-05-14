@@ -16,6 +16,5 @@ appVersion: "1.0"
 
 dependencies:
   - name: kubescape-cloud-operator
-    alias: kubescape
     version: 1.10.15
     repository: https://kubescape.github.io/helm-charts/
