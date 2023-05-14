@@ -20,6 +20,8 @@ spec:
     server: {{ .Values.destinationServer | default "https://kubernetes.default.svc" }}
     namespace: kube-system
   syncPolicy:
+    syncOptions:
+    - Replace=true
     automated:
       prune: true
     retry:
