@@ -99,7 +99,7 @@ strimziKafkaOperator:
 
 # External DNS Values
 externalDns:
-  enable: true
+  enable: false
   createNamespace: true
   serviceAccountName:
   zoneIdFilter:
@@ -231,7 +231,7 @@ promtheusNodeExporter:
   
 # Kubernetes Dashboard Values
 kubernetesDashboard:
-  enable: true
+  enable: false
   serviceAccountName:
 
 # promtail Values
